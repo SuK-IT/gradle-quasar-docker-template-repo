@@ -15,7 +15,7 @@ RUN \
 
 FROM griefed/baseimage-ubuntu-jdk-8:1.0.5
 
-LABEL maintainer="Griefed <griefed@griefed.de>"
+LABEL maintainer="SuK-IT <git@suk-it.at>"
 LABEL description="DESCRIPTION"
 
 RUN \

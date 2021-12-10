@@ -15,7 +15,7 @@ RUN \
 
 FROM lsiobase/nginx:3.14
 
-LABEL maintainer="Griefed <griefed@griefed.de>"
+LABEL maintainer="SuK-IT <git@suk-it.at>"
 LABEL description="DESCRIPTION"
 
 RUN \

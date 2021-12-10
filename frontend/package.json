@@ -4,17 +4,12 @@
   "description": "DESCRIPTION",
   "productName": "REPOSITORY",
   "private": true,
-  "author": {
-    "name": "Griefed",
-    "email": "griefed@griefed.de",
-    "url": "https://griefed.de/"
-  },
   "bugs": {
-    "url": "https://github.com/Griefed/REPOSITORY/issues"
+    "url": "https://github.com/suk-it/REPOSITORY/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Griefed/REPOSITORY.git"
+    "url": "git+https://github.com/suk-it/REPOSITORY.git"
   },
   "scripts": {
     "start": "quasar dev",
@@ -58,11 +53,6 @@
     "yarn": "^1.22.11"
   },
   "contributors": [
-    {
-      "name": "Griefed",
-      "email": "griefed@griefed.de",
-      "url": "https://github.com/Griefed"
-    },
     {
       "name": "dependabot[bot]",
       "email": "49699333+dependabot[bot]@users.noreply.github.com",

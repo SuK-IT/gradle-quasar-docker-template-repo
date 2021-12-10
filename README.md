@@ -6,8 +6,8 @@
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/griefed/GRIEFED_DOCKERHUB_REPO?label=Image%20size&sort=date&style=for-the-badge&logo=Docker&labelColor=325358&color=c0ffee&logoColor=white)](GRIEFED_DOCKERHUB_REPO)
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/griefed/GRIEFED_DOCKERHUB_REPO?label=Docker%20build&style=for-the-badge&logo=Docker&labelColor=325358&color=c0ffee&logoColor=white)](GRIEFED_DOCKERHUB_REPO)
 [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/griefed/GRIEFED_DOCKERHUB_REPO?label=Docker%20build&style=for-the-badge&logo=Docker&labelColor=325358&color=c0ffee&logoColor=white)](GRIEFED_DOCKERHUB_REPO)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Griefed/GRIEFED_GITHUB_REPO?label=GitHub%20Stars&style=for-the-badge&logo=Github&labelColor=325358&color=c0ffee)](GRIEFED_GITHUB_REPO)
-[![GitHub forks](https://img.shields.io/github/forks/Griefed/GRIEFED_GITHUB_REPO?label=GitHub%20Forks&style=for-the-badge&logo=Github&labelColor=325358&color=c0ffee)](GRIEFED_GITHUB_REPO)
+[![GitHub Repo stars](https://img.shields.io/github/stars/suk-it/GRIEFED_GITHUB_REPO?label=GitHub%20Stars&style=for-the-badge&logo=Github&labelColor=325358&color=c0ffee)](GRIEFED_GITHUB_REPO)
+[![GitHub forks](https://img.shields.io/github/forks/suk-it/GRIEFED_GITHUB_REPO?label=GitHub%20Forks&style=for-the-badge&logo=Github&labelColor=325358&color=c0ffee)](GRIEFED_GITHUB_REPO)
 
 This is a description.
 
@@ -37,10 +37,10 @@ Images are available for linux/amd64,linux/arm/v7,linux/arm64.
 ```docker-compose.yml
 version: "2"
 services:
-  GRIEFED_DOCKERHUB_REPO:
-    container_name: GRIEFED_DOCKERHUB_REPO
+  SUK-IT-REPO:
+    container_name: SUK-IT-REPO
     restart: on-failure:3
-    image: GRIEFED_DOCKERHUB_REPO
+    image: ghcr.io/suk-it/SUK-IT-REPO
     ports:
       - 8080:PORT
     environment:
@@ -55,7 +55,7 @@ services:
 ## cli
 
 ```bash
-GET_FROM_FLEET
+DOCKER RUN COMMAND GOES HERE
 ```
 
 # Configuration
